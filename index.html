@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rare Carat API Example - PHP</title>
+      <link rel="stylesheet" href="https://api.rarecarat.com/css/site.min.css" asp-append-version="true" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+      <link rel="stylesheet" href="/style.css" asp-append-version="true" />
+  </head>
+  <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Rare Carat API</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://api.rarecarat.com">API Documentation</a></li>
+            </ul>
+        </nav>
+
+      <div class="hero">
+          <div class="container">
+              <div class="">
+                  <h1>API Example - PHP</h1>
+                  <p>In here you will find a simple PHP application that communicates with the Rare Carat API, sugin PHP. It is capable os listing, creating, updateing, and deleting resources. If you have any questions, feel free to email us at <a href="mailto:api@rarecarat.com">api@rarecarat.com</a>.</p>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="">
+                  <section>
+                      <h2 id="data-content-types" class="page-header">Data Content Types</h2>
+                      <p>To maximize compatibility with existing systems, Rare Carat API accepts two formats for the data: CSV and JSON.</p>
+                      <h3>JSON</h3>
+                      <ul>
+                          <li><a target="_blank" href="/json/list.php"><code>GET</code> /diamonds (index)</a></li>
+                          <li><a target="_blank" href="/json/create.php"><code>POST</code> /diamonds (create)</a></li>
+                          <li><a target="_blank" href="/json/update.php"><code>PATCH</code> /diamonds/{id} (update single)</a></li>
+                          <li><a target="_blank" href="/json/delete.php"><code>DELETE</code> /diamonds/{id} (delete single</a>)</li>
+                      </ul>
+                      <h3>CSV</h3>
+                      <ul>
+                          <li><a target="_blank" href="/csv/list.php"><code>GET</code> /diamonds (index)</a></li>
+                          <li><a target="_blank" href="/csv/create.php"><code>POST</code> /diamonds (create)</a></li>
+                          <li><a target="_blank" href="/csv/update.php"><code>PATCH</code> /diamonds/{id} (update single)</a></li>
+                          <li><a target="_blank" href="/csv/delete.php"><code>DELETE</code> /diamonds/{id} (delete single</a>)</li>
+                      </ul>
+                  </section>
+              </div>
+          </div>
+      </div>
+    
+  </body>
+</html>

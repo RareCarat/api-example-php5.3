@@ -1,0 +1,7 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-right li a {
+    margin: 7px 15px;
+    color: white !important;
+}

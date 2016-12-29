@@ -1,0 +1,14 @@
+{
+  "name": "rarecarat/api-example-php",
+  "description": "Sample project to demonstrate how to communicate with the Rare Carat API, using PHP.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martim Schnack",
+      "email": "mschnack@rarecarat.com"
+    }
+  ],
+  "require": {
+    "nategood/httpful" : "0.2.*"
+  }
+}
